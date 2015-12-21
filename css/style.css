@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /* fonts import */
-@import url();
+/*@import url();*/
 
 /* reset by anton rogov */
 * {padding:0; margin:0;}
@@ -22,10 +22,10 @@ body {background: #000;}
 
 
 /* feefo-display-wrapper */
-.feefo-display-wrapper {display: block; position: absolute; overflow: hidden; left: 0; top: 15%; font-family: 'Helvetica', sans-serif; width: 346px;}
+.feefo-display-wrapper {display: block; position: absolute; overflow: hidden; left: 0; top: 15%; font-family: 'Arial', sans-serif; width: 346px;}
 
 /* feefo-modal-open-btn-wrapper */
-.feefo-modal-open-btn-wrapper {display: block; position: relative; float: left; font-family: 'Helvetica', sans-serif;}
+.feefo-modal-open-btn-wrapper {display: block; position: relative; float: left;}
   .feefo-modal-open-hover {display: block; position: relative; float: left; height: 1px;}
   .feefo-modal-open-btn-wrapper a {text-decoration: none;}
   .feefo-modal-open-btn-wrapper a:hover .feefo-modal-open-hover {width: 10px;}
@@ -33,11 +33,12 @@ body {background: #000;}
 
 .feefo-modal-open-btn-wrapper .feefo-raiting-wrapper {display: block; position: relative; overflow: hidden; background-color: #ffde00;}
   .feefo-raiting {display: block; position: relative; float: right; width: 88px;}
-  .feefo-raiting h5 {padding: 8px 16px 6px 17px; font-size: 26px; line-height: 34px; color: #3b3c3a;}
+  .feefo-raiting h5 {padding: 8px 16px 6px 17px; font-size: 26px; line-height: 34px; color: #3b3c3a; font-weight: 900;}
 
 .feefo-raiting-desc-wrapper {display: block; position: relative; overflow: hidden; background-color: #3b3c3a;}
   .feefo-raiting-desc {display: block; position: relative; float: right; width: 88px;}
   .feefo-raiting-desc p {padding: 12px 6px 12px 7px; font-size: 11px; color: #ffffff; font-weight: lighter; text-align: center;}
+  .feefo-raiting-desc b {font-weight: 900;}
   .feefo-line {display: block; position: relative; border-top: 1px solid #444444; margin: 0 12px 0 13px; width: 63px;}    
     .feefo-logo-wrapper {display: block; position: relative;}
     .feefo-logo-wrapper img {padding: 14px 16px 14px 17px;}
@@ -50,24 +51,24 @@ body {background: #000;}
   .feefo-modal-header {display: block; position: relative;}
   .feefo-modal-header .feefo-raiting-wrapper {display: block; position: relative; overflow: hidden; margin-top: 19px;}
     .feefo-raiting-percent {display: block; position: relative; float: left; width: 87px; margin-left: 20px;}
-    .feefo-raiting-percent h5 {padding: 16px 18px; font-size: 26px; line-height: 26px; color: #3b3c3a; background-color: #ffde00; border-radius: 5px;}
+    .feefo-raiting-percent h5 {padding: 16px 18px; font-size: 26px; line-height: 26px; color: #3b3c3a; background-color: #ffde00; border-radius: 5px; font-weight: 900;}
     .feefo-raiting-text {display: block; position: relative; float: right; width: 146px; margin-right: 20px;}
-    .feefo-raiting-text p {font-size: 13px; line-height: 17px; color: #606060; font-weight: lighter; margin-top: 3px;}
-    .feefo-raiting-text p strong {color: #37943e;}
+    .feefo-raiting-text p {font-size: 13px; line-height: 17px; color: #606060; font-weight: lighter; margin-top: 10px;}
+    .feefo-raiting-text p b {color: #37943e; font-weight: 900;}
     .feefo-raiting-based {display: block; position: relative; margin: 12px 19px;}
     .feefo-raiting-based p {font-size: 11px; line-height: 11px; color: #979797; font-weight: lighter;}
 
   .feefo-modal-body {display: block; position: relative; height: 406px; border-top: 1px solid #eaeaea; border-bottom: 1px solid #eaeaea; overflow: auto;}
     .feefo-reviews {display: block; position: relative; padding: 24px 9px 10px 20px; background-color: #f5f5f5;}
       .feefo-review {margin-bottom: 15px;}
-        .feefo-review-rating-desc {font-size: 13px; line-height: 13px; color: #b3b3b3;}
+        .feefo-review-rating-desc {font-size: 13px; line-height: 13px; color: #b3b3b3; font-weight: 900;}
         .feefo-review-rating-excellent {background: url(../assets/excellent-icon.png) 0 0 no-repeat; padding-left: 35px;}
         .feefo-review-rating-bad {background: url(../assets/bad-icon.png) 0 0 no-repeat; padding-left: 35px;}
         .feefo-review-rating-good {background: url(../assets/good-icon.png) 0 0 no-repeat; padding-left: 19px;}
         .feefo-review-rating-poor {background: url(../assets/poor-icon.png) 0 0 no-repeat; padding-left: 19px;}
-        .feefo-review-title {font-size: 13px; line-height: 13px; color: #606060; margin-top: 7px;}
+        .feefo-review-title {font-size: 13px; line-height: 13px; color: #606060; margin-top: 7px; font-weight: 900;}
         .feefo-review-content {font-size: 13px; line-height: 13px; color: #606060; margin-top: 7px;}
-        .feefo-review-author {font-size: 13px; line-height: 13px; color: #606060; font-weight: bold; margin-top: 7px;}
+        .feefo-review-author {font-size: 13px; line-height: 13px; color: #606060; font-weight: bold; margin-top: 7px; font-weight: 900;}
         .feefo-review-date {font-weight: normal; font-size: 11px; color: #bbb8b9;}
         .feefo-review-line {border-top: 1px solid #eaeaea; margin-top: 15px;}
 
