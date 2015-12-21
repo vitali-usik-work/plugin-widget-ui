@@ -26,7 +26,7 @@ body {background: #000;}
 
 /* feefo-modal-open-btn-wrapper */
 .feefo-modal-open-btn-wrapper {display: block; position: relative; float: left; font-family: 'Helvetica', sans-serif;}
-  .feefo-modal-open-hover {display: block; position: relative; float: left;}
+  .feefo-modal-open-hover {display: block; position: relative; float: left; height: 1px;}
   .feefo-modal-open-btn-wrapper a {text-decoration: none;}
   .feefo-modal-open-btn-wrapper a:hover .feefo-modal-open-hover {width: 10px;}
 
@@ -79,7 +79,7 @@ body {background: #000;}
 /* feefo-modal-close-btn */
 .feefo-modal-close-btn {display: block; position: relative; float: left; margin-top: 28px;}
   .feefo-modal-close-wrapper {display: block; position: relative; overflow: hidden;}
-    .feefo-modal-close-hover {display: block; position: relative; float: left; background: #585a5b; /*width: 10px;*/ height: 47px;}
+    .feefo-modal-close-hover {display: block; position: relative; float: left; background: #585a5b; height: 47px;}
     .feefo-modal-close {display: block; position: relative; float: right; width: 40px; height: 47px; background: #585a5b url(../assets/close-icon.png) 50% 50% no-repeat; border-top-right-radius: 5px; border-bottom-right-radius: 5px;}
   .feefo-modal-close-btn a:hover .feefo-modal-close-hover {width: 10px;}
   
